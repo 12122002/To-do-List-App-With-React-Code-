@@ -1,5 +1,6 @@
 .list {
     background-color: rgb(214, 49, 187);
+    width: 300px;
     height: 50px;
     line-height: 50px;
     color: seashell;
@@ -9,4 +10,17 @@
 .list p {
     margin-left: 20px;
     font-size: 20px;
+    position: relative;
+}
+
+.list p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+} 
+
+.list p input {
+    background-color: transparent;
+    width: 200px;
+    border: none;
 }
