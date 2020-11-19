@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+header {
+    width:500px;
+    margin: 50px auto;
+    background-color: rgb(155, 156, 231);
+    padding: 50px;
+    border-radius: 20px;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1 {
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header input {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(40, 40, 211);
+    border: none;
+    color:rgb(240, 233, 233);
+    font-size: 17px ;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header input::placeholder {
+    font-size: 17px;
+    color: rgb(207, 203, 203);
+    opacity: .9;
+    padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+header input:focus{
+    outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header button{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(250, 175, 12);
+    color: black;
+
+}
+
+header button:hover{
+   background-color: rgb(252, 248, 9);
+   cursor: pointer;
+}
+
+header button:focus{
+    outline:none;
 }

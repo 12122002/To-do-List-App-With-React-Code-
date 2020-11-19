@@ -1,0 +1,12 @@
+.list {
+    background-color: rgb(214, 49, 187);
+    height: 50px;
+    line-height: 50px;
+    color: seashell;
+    border-radius: 10px;
+}
+
+.list p {
+    margin-left: 20px;
+    font-size: 20px;
+}
